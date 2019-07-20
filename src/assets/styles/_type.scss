@@ -1,11 +1,11 @@
 // Type
-$line-height: 1.3rem !default;
-$base-font-size: 14px !default;
+// $line-height: 1.3rem !default;
+// $base-font-size: 14px !default;
 
 :host {
   --line-height: 1.3rem;
 
-  --base-font-size: $base-font-size;
+  --base-font-size: 14px; //$base-font-size;
 
   --font-size-2: 1.429rem;
   --font-size-1: 1.143rem;
@@ -17,4 +17,29 @@ $base-font-size: 14px !default;
   --font-weight-bold: 600;
 
   font-size: var(--font-size-0);
+  font-family: $avenir-family;
+  line-height: 1.3rem;
+
+  .heading {
+    font-weight: var(--font-weight);
+    font-size: var(--font-size-0);
+  }
+
+  h1.heading {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight);
+  }
+  h2.heading {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight);
+  }
+  h3.heading {
+    font-size: var(--font-size-0);
+    font-weight: var(--font-weight-bold);
+  }
+  h4.heading,
+  h5.heading {
+    font-size: var(--font-size--1);
+    font-weight: var(--font-weight-bold);
+  }
 }

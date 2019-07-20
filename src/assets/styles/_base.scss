@@ -1,5 +1,12 @@
 html {
-  font-family: $avenir-family;
-  font-size: $base-font-size;
-  line-height: $line-height;
+  // font-family: $avenir-family;
+  // font-size: $base-font-size;
+  // line-height: $line-height;
+}
+
+:host {
+  // font-family: $avenir-family;
+  // h1, h2, h3, h4 {
+  //   font-weight: var(--font-weight);
+  // }
 }
